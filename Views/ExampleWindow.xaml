@@ -35,7 +35,7 @@
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <xctk:CheckComboBox Width="150" Height="50" ItemsSource="{Binding Teachers}" SelectedItemsOverride="{Binding Tech}/>
+                                <xctk:CheckComboBox Width="150" Height="50" ItemsSource="{Binding Teachers}" SelectedItemsOverride="{Binding Tech}"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
