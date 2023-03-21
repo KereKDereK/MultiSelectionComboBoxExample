@@ -14,6 +14,7 @@ namespace MultiSelectionComboBoxExample.ViewModels
     public class ExampleEntity
     {
         public ObservableCollection<string> Spec { get; set; } = new ObservableCollection<string>();
+        public ObservableCollection<string> Tech { get; set; } = new ObservableCollection<string>();
         public List<string> Specs { get; }
         public List<string> Teachers { get; }
 
